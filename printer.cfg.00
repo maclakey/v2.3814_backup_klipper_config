@@ -1,4 +1,3 @@
-[include mmu/base/*.cfg]
 # This file contains common pin mappings for the BigTreeTech Octopus V1.
 # To use this config, the firmware should be compiled for the STM32F446 with a "32KiB bootloader"
 # Enable "extra low-level configuration options" and select the "12MHz crystal" as clock reference
@@ -59,7 +58,8 @@ restart_method: command
 serial: /tmp/klipper_host_mcu
 
 [mcu sb2040]
-canbus_uuid: 89ce64b5b146
+canbus_uuid: c386d9bfb2c1
+# canbus_uuid: 46584bb57dc9  #old
 
 # serial: /dev/serial/by-id/usb-Klipper_samd21g18a_7D7C58B53359535120202036361106FF-if00
 
